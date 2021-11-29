@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+/*TYPOGRAPHY*/
+
+h1, h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 1.625rem;
+}
+label {
+    font-size: 0.625rem;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.wrapper {
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.header__title {
+    font-size: 1.625rem;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    margin-right: 1rem;
+}
+.main__title {
+    margin-top:7rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0.5rem;
+}
+.form label{
+    margin-top: 1rem;
+}
+.form input {
+    padding: 1rem;
+    max-width: 343px;
+}
+input[type="text"]
+{
+    font-size:1.125rem;
+    font-weight: 400;
+}
+input[type="email"]
+{
+    font-size:1.125rem;
+    font-weight: 400;
+}
+.button {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    font-weight: 700;
+    font-family: 'open sans';
+    font-size: 1.125rem;
+    border: 1px solid #000;
+}
